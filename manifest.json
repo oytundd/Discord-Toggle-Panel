@@ -1,0 +1,27 @@
+{
+    "name": "Discord Toggle Panel",
+    "version": "0.0.1",
+    "description": "Toggle channels tab in discord.",
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "options_page": "options.html",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+      "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon.png",
+            "32": "icon.png",
+            "48": "icon.png",
+            "128": "icon.png"
+          }
+      },
+      "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      },
+    "manifest_version": 2
+}
