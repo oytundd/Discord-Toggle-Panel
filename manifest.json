@@ -3,7 +3,6 @@
     "version": "0.0.1",
     "description": "Toggle channels tab in discord.",
     "permissions": ["activeTab", "declarativeContent", "storage"],
-    "options_page": "options.html",
     "background": {
         "scripts": ["background.js"],
         "persistent": false
