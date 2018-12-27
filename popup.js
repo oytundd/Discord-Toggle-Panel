@@ -10,7 +10,7 @@ changeColor.onclick = function(element) {
           {
           for (var i = 0; i < elements.length; i++) 
           {
-              elements[i].style.width ="0px";
+              elements[i].style.width ="45px";
           }
           }
           else 
